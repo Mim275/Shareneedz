@@ -1,0 +1,157 @@
+.loginmodel .form {
+    background: white;
+    /* color: white; */
+    padding: 40px;
+    max-width: 600px;
+    /* margin: 40px auto; */
+    /* border-radius: 4px; */
+    /* box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3); */
+}
+
+.loginmodel .tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0 50px 40px 50px;
+}
+
+.loginmodel .tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.loginmodel .tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid #373F41;
+    border-radius: 5px;
+    background: whitesmoke;
+    color: #373F41;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+    
+}
+
+.loginmodel .tab-group li a:hover {
+    background: #667276;
+    color: white;
+}
+
+.loginmodel .tab-group .active a {
+    background: #373F41;
+    color: #ffffff;
+}
+
+.loginmodel .tab-content>div:last-child {
+    display: none;
+}
+
+.loginmodel h3 {
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    margin: 0 0 40px;
+}
+
+
+
+.loginmodel label .req {
+    margin: 2px;
+    color: gray;
+}
+
+.loginmodel label.active {
+    visibility: hidden;
+    /* transform: translateY(50px);
+    left: 2px;
+    font-size: 14px; */
+}
+
+.loginmodel label.active .req {
+    opacity: 0;
+}
+
+.loginmodel label.highlight {
+    color: black;
+}
+
+.loginmodel input,
+.loginmodel textarea {
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid gray;
+    color: black;
+    border-radius: 4px;
+    /* transition: border-color 0.25s ease, box-shadow 0.25s ease; */
+}
+
+.loginmodel input:focus,
+.loginmodel textarea:focus {
+    outline: 0;
+    border-color: gray;
+}
+
+.loginmodel textarea {
+    border: 2px solid gray;
+    resize: vertical;
+}
+
+.loginmodel .field-wrap {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.loginmodel .top-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.loginmodel .top-row>div {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.loginmodel .top-row>div:last-child {
+    margin: 0;
+}
+
+.loginmodel .button {
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.1em;
+    background: #373F41;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+
+.loginmodel .button:hover,
+.loginmodel .button:focus {
+    background: #373F41;
+}
+
+.loginmodel .button-block {
+    display: block;
+    width: 100%;
+}
+
+.loginmodel .forgot {
+    margin-top: -20px;
+    text-align: right;
+}

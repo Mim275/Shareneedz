@@ -1,0 +1,14 @@
+/* your styles go here */
+
+.form-label {
+
+    margin-top: 20px;
+}
+/* invoice */
+.toast-message{
+   color: black !important;
+}
+.toast.toast-success {
+
+    background-color: #2f96b4;
+}
